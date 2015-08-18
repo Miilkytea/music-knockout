@@ -9,26 +9,17 @@
     <nav>
       <% include ./partials/nav.ejs %>
     </nav>
+    <div class="welcome-forms"> 
+      <div class="row">
+        <div class="col s4 welcome">Sign Up</div>
+        <div class="col s4 welcome">Play Now</div>
+        <div class="col s4 welcome">Login</div>
+      </div>
+    </div>  
     <!-- paralax effect -->
     <div class="parallax-container">
       <div class="parallax">
         <img src="/images/concert.jpg">
-
-      </div>
-    </div>
-
-    <!-- game -->
-    <div class="container">
-      <div class="row game-row">
-        <div class="col s2 offset-s1 side players z-depth-2">players</div>
-        <div class="col s8 game"></div>
-        <div class="col s2 offset-s6 side leader z-depth-2">leader</div>
-        <div class ="col s4 offset-s4 welcome" id="welcomeIntro">
-          <% include ./partials/welcome.ejs %>
-        </div>
-      </div>
-      <div class="row chat">
-        <div class="col s8 offset-s4">chat</div>
       </div>
     </div>
     <footer>
