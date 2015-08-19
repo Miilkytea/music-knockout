@@ -7,8 +7,23 @@
   <body>
     <!-- nav bar -->
     <nav>
-      <% include ./partials/nav.ejs %>
+    <% include ./partials/nav.ejs %>
     </nav>
+
+
+    <div class= "container">
+      <div class="row hello">
+        <div class="col s12 m12 l12">
+        </div>
+      </div> 
+    </div> 
+
+    <!-- paralax effect -->
+    <div class="parallax-container">
+      <div class="parallax">
+        <img src="/images/concert.jpg">
+      </div>
+    </div>
 
     <div class= "container">
       <div class="row welcome-forms">
@@ -26,6 +41,7 @@
         </div>
       </div> 
     </div>   
+
     <!-- paralax effect -->
     <div class="parallax-container">
       <div class="parallax">
@@ -35,7 +51,7 @@
 
     <div class="container">
       <div class="row cool-content">
-          <div class="col s12 m4 l4 welcome"><h3>About</h3>
+          <div class="col s12 m4 l4"><h3>About</h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -43,7 +59,7 @@
           cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
           proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>  
           </div>
-          <div class="col s12 m4 l4 welcome"><h3>COOL</h3>
+          <div class="col s12 m4 l4"><h3>COOL</h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -52,7 +68,7 @@
           proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p> 
 
           </div>
-          <div class="col s12 m4 l4 welcome"><h3>Stuff</h3>
+          <div class="col s12 m4 l4"><h3>Stuff</h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -62,8 +78,17 @@
           </div>
       </div>  
     </div>
+
+    <!-- paralax effect -->
+    <div class="parallax-container">
+      <div class="parallax">
+        <img src="/images/concert.jpg">
+      </div>
+    </div>
+
     <footer>
-      <% include ./partials/footer.ejs %>
+     <% include ./partials/footer.ejs %>
     </footer>
+     <% include ./partials/scripts.ejs %>
   </body>
 </html>
